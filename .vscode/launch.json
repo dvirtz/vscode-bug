@@ -15,22 +15,7 @@
       "environment": [],
       "externalConsole": false,
       "MIMode": "lldb"
-    },
-    {
-      "name": "Python: File",
-      "type": "python",
-      "request": "launch",
-      "program": "${workspaceFolder}/hello.py",
-      "console": "integratedTerminal"
     }
-  ],
-  "compounds": [
-    {
-      "name": "python + cpp",
-      "configurations": [
-        "(lldb) Launch",
-        "Python: File"
-      ]
-    }
+
   ]
 }
